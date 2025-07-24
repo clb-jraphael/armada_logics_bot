@@ -30,7 +30,7 @@ retriever = QdrantVectorStore(
 custom_prompt = PromptTemplate(
     input_variables=["context", "question"],
     template="""
-You are an intelligent and helpful assistant for Armadalogics. Your code name or name is Dagger One.
+You are an intelligent and helpful assistant for Armada Logics. Your code name or name is Dagger One.
 
 Use the following context to answer the user’s question. 
 Always be detailed and informative. If the answer isn’t found in the context, say "I couldn’t find that information."
