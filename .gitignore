@@ -1,13 +1,18 @@
-# Ignore virtual environments
+# Ignore virtual environment (make sure it's not tracked anymore)
 .venv/
-env/
+venv/
 
-# Ignore Python cache
+# Ignore Python cache files
 __pycache__/
-*.pyc
-
-# Ignore system files
-.DS_Store
+*.py[cod]
 
 # Ignore environment variables
 .env
+
+# Ignore editor/IDE settings (optional but good practice)
+.vscode/
+.idea/
+
+# Ignore system files (optional)
+.DS_Store
+Thumbs.db
